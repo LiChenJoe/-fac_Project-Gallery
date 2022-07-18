@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Joe Chang Project Gallery</title>
   </head>
   <body>
@@ -27,28 +27,26 @@
         <div class="card">
           <h4>Calculator</h4>
           <section class="cardContent">
-            <img src="" alt="" />
+            <img src="./image/Calculator.png" alt="" />
             <section class="buttonArea">
               <button>
                 <a
                   target="_blank"
-                  href="https://lichenjoe.github.io/to-do_list/"
+                  href="https://lichenjoe.github.io/Calculator/"
                   >Live Demo</a
                 >
               </button>
-              <button class="toggle">description</button>
+              <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
             </section>
           </section>
-          <section class="descriptionArea">
-            <div class="description">
-              <p></p>
-            </div>
+          <section class="description">
+            <p>This calculator works perfectly like any other calculator, you can control it through the keyboard or mouse click.</p>
           </section>
         </div>
         <div class="card">
           <h4>To-Do List</h4>
           <section class="cardContent">
-            <img src="" alt="" />
+            <img src="./image/Todo List.png" alt="" />
             <section class="buttonArea">
               <button>
                 <a
@@ -57,49 +55,42 @@
                   >Live Demo</a
                 >
               </button>
-              <button class="toggle">description</button>
+              <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
             </section>
           </section>
-          <section class="descriptionArea">
-            <div class="description">
-              <p></p>
-            </div>
+          <section class="description">
+            <p>Vanilla JS project with Friedly UI design, local storage and multiple sorting features. </p>
           </section>
         </div>
         <div class="card">
           <h4>Travel_Journal</h4>
           <section class="cardContent">
-            <img src="" alt="" />
+            <img src="./image/Travel Journal.png" alt="" />
             <section class="buttonArea">
               <button>
-                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="https://lichenjoe.github.io/Travel_Journal/">Live Demo</a>
               </button>
-              <button class="toggle">description</button>
+              <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
             </section>
           </section>
-          <section class="descriptionArea">
-            <div class="description">
-              <p></p>
-            </div>
+          <section class="description">
+            <p>This is a one page react app, created to practice component concept and React basic.</p>
           </section>
         </div>
         <div class="card">
           <h4>AVD Research</h4>
           <section class="cardContent">
-            <img src="" alt="" />
+            <img src="./image/AVD Research.png" alt="" />
             <section class="buttonArea">
               <button>
-                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="https://avdresearch.net/">Live Demo</a>
               </button>
-              <button class="toggle">description</button>
+              <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
             </section>
           </section>
-          <section class="descriptionArea">
-            <div class="description">
-              <p></p>
-            </div>
-          </section>
-        </div>
+          <section class="description">
+          <p>AVD Research is a financial analysis site desinged for the site owner to build his professional image in the financial field.  </p>   
+        </section>
       </div>
     </section>
     <footer>
@@ -110,9 +101,9 @@
           href="https://github.com/LiChenJoe"
           target="_blank"
           rel="noopener noreferrer"
-          >Joe</a
-        >
+          >Joe</a>
       </p>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
